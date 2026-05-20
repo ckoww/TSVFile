@@ -88,7 +88,7 @@ namespace TSVFile
             DialogResult dr = MessageBox.Show("確定要離開嗎?", "離開",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dr == DialogResult.No)
             {
-                e.Cancel = true; // 取消關閉
+                e.Cancel = true; // 取消關閉 
             }
         }
 
